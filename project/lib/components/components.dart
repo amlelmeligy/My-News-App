@@ -154,7 +154,7 @@ class _verticalscrollState extends State<verticalscroll> {
             );
           } else if (snapshot.hasError) {
             return SliverToBoxAdapter(
-              child: Text('oops there was an error'),
+              child: Text('Oops there was an error'),
             );
           } else {
             return Center(child: CircularProgressIndicator());
